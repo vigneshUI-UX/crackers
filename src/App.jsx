@@ -248,10 +248,10 @@ function App() {
           loop
           playsInline
           preload="auto"
-          poster="https://i.pinimg.com/736x/96/54/1b/96541bda88504d74be2888c645734186.jpg"
+          poster=""
           aria-hidden="true"
         >
-          <source src="/videos/hero-bg.mp4" type="video/mp4" />
+          <source src="videos/hero-bg.mp4" type="video/mp4" />
         </video>
 
         <div className="hero-overlay"></div>
