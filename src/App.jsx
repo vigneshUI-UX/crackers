@@ -199,7 +199,6 @@ function App() {
            
             <span>
               <span className="brand-dot">5⭐star</span>
-              <small>CRACKERS </small>
             </span>
           </a>
 
@@ -227,7 +226,7 @@ function App() {
             ))}
 
             <a href="#products" className="nav-shop" onClick={closeMenu}>
-              Shop Now <i className="bi bi-arrow-up-right"></i>
+              Shop Now 
             </a>
           </div>
 
@@ -259,10 +258,7 @@ function App() {
         <div className="container hero-container">
           <div className="row align-items-center">
             <div className="col-lg-7 hero-content" data-aos="fade-up">
-              <span className="hero-tag">
-                <i className="bi bi-stars"></i>
-                5⭐star CRACKERS
-              </span>
+             
 
               <h1>
                 LIGHT UP
@@ -278,7 +274,6 @@ function App() {
               <div className="hero-buttons">
                 <a href="#products" className="primary-btn">
                   Explore Collection
-                  <i className="bi bi-arrow-up-right"></i>
                 </a>
 
                 <a href="#about" className="secondary-btn">
@@ -349,7 +344,6 @@ function App() {
             </div>
 
             <div className="col-lg-6" data-aos="fade-left">
-              <span className="section-tag">ABOUT 5⭐star CRACKERS</span>
               <h2 className="section-title">
                 Every Celebration
                 <span> Deserves A Spark.</span>
@@ -370,8 +364,8 @@ function App() {
                 <div><i className="bi bi-check-circle-fill"></i> Responsible celebration guidance</div>
               </div>
 
-              <a href="#contact" className="primary-btn">
-                Know More <i className="bi bi-arrow-up-right"></i>
+              <a href="#contact" className="primary-btn" style={{ marginTop: "2.5rem" }}>
+                Know More 
               </a>
             </div>
           </div>
@@ -382,7 +376,6 @@ function App() {
       <section className="categories-section section-padding" id="categories">
         <div className="container">
           <div className="section-heading text-center" data-aos="fade-up">
-            <span className="section-tag">EXPLORE COLLECTIONS</span>
             <h2 className="section-title">
               Shop By <span>Categories</span>
             </h2>
@@ -413,7 +406,6 @@ function App() {
                     <span><i className={`bi ${category.icon}`}></i></span>
                   </div>
                   <h5>{category.name}</h5>
-                  <small>Explore Collection <i className="bi bi-arrow-right"></i></small>
                 </button>
               </div>
             ))}
@@ -426,7 +418,7 @@ function App() {
         <div className="container">
           <div className="section-heading" data-aos="fade-up">
             <div>
-              <span className="section-tag">OUR COLLECTION</span>
+              <span className="section-tag"></span>
               <h2 className="section-title">
                 Featured <span>Products</span>
               </h2>
@@ -486,7 +478,7 @@ function App() {
                       className="add-cart-btn"
                       onClick={() => addToCart(product)}
                     >
-                      Add To Cart <i className="bi bi-arrow-right"></i>
+                      Add To Cart 
                     </button>
                   </div>
                 </div>
@@ -502,14 +494,13 @@ function App() {
       <section className="promo-section" id="offers">
         <div className="container">
           <div className="promo-content" data-aos="zoom-in">
-            <span>THE FESTIVAL SPECIAL</span>
             <h2>MAKE THIS FESTIVAL<br />MORE <em>MAGICAL!</em></h2>
             <p>
               Discover special celebration collections and
               festive combo showcases.
             </p>
             <a href="#products" className="primary-btn">
-              Explore Offers <i className="bi bi-arrow-up-right"></i>
+              Explore Offers 
             </a>
           </div>
         </div>
@@ -519,7 +510,7 @@ function App() {
       <section className="why-section section-padding">
         <div className="container">
           <div className="section-heading text-center" data-aos="fade-up">
-            <span className="section-tag">THE 5⭐star</span>
+            <span className="section-tag"></span>
             <h2 className="section-title">
               Why Choose <span>Us?</span>
             </h2>
@@ -551,11 +542,10 @@ function App() {
       <section className="festival-section">
         <div className="container">
           <div className="festival-content" data-aos="fade-up">
-            <span>CELEBRATE EVERY MOMENT</span>
             <h2>BRING HOME THE<br /><em>FESTIVAL SPIRIT.</em></h2>
             <p>More colours. More happiness. More unforgettable memories.</p>
             <a href="#contact" className="secondary-btn">
-              Get In Touch <i className="bi bi-arrow-right"></i>
+              Get In Touch 
             </a>
           </div>
         </div>
@@ -565,7 +555,7 @@ function App() {
       <section className="testimonial-section section-padding">
         <div className="container">
           <div className="section-heading text-center" data-aos="fade-up">
-            <span className="section-tag">CUSTOMER STORIES</span>
+            <span className="section-tag"></span>
             <h2 className="section-title">
               Happy <span>Customers</span>
             </h2>
@@ -600,7 +590,6 @@ function App() {
         <div className="container">
           <div className="row g-5">
             <div className="col-lg-5" data-aos="fade-right">
-              <span className="section-tag">HAVE QUESTIONS?</span>
               <h2 className="section-title">
                 Frequently Asked <span>Questions</span>
               </h2>
@@ -609,7 +598,7 @@ function App() {
                 collections and customer support.
               </p>
               <a href="#contact" className="primary-btn">
-                Ask Us <i className="bi bi-arrow-up-right"></i>
+                Ask Us
               </a>
             </div>
 
@@ -640,7 +629,6 @@ function App() {
       <section className="contact-section section-padding" id="contact">
         <div className="container">
           <div className="section-heading text-center" data-aos="fade-up">
-            <span className="section-tag">GET IN TOUCH</span>
             <h2 className="section-title">
               Let's Start A <span>Conversation.</span>
             </h2>
@@ -753,7 +741,6 @@ function App() {
         <div className="container">
           <div className="newsletter-content" data-aos="zoom-in">
             <div>
-              <span>STAY CONNECTED</span>
               <h2>Get The Latest <em>Festive Updates.</em></h2>
             </div>
 
@@ -776,7 +763,6 @@ function App() {
               <a href="#home" className="brand-logo footer-logo">
                 <span>
                   <span className="brand-dot">5⭐STAR</span>
-                  <small>CRACKERS </small>
                 </span>
               </a>
                <div className="contact-socials">
